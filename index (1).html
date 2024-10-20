@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Inbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Email Inbox</h1>
+        
+        <label for="email-account">Select an Email Account:</label>
+        <select id="email-account">
+            <option value="1">vpnsi.test@inbox.testmail.app</option>
+            <option value="2">y1gbh.test@inbox.testmail.app</option>
+            <option value="3">wvk5b.test@inbox.testmail.app</option>
+            <option value="4">ps6yq.test@inbox.testmail.app</option>
+            <option value="5">skx3s.test@inbox.testmail.app</option>
+            <option value="6">4ttbz.test@inbox.testmail.app</option>
+        </select>
+        <button id="fetch-emails">Go To Inbox</button>
+
+        <div id="inbox" class="inbox" style="display: none;">
+            <h2>Inbox</h2>
+            <ul id="email-list"></ul>
+        </div>
+
+        <div id="email-details" class="email-details" style="display: none;">
+            <h2>Email Details</h2>
+            <p><strong>Sender Name:</strong> <span id="sender-name"></span></p>
+            <p><strong>Sender Address:</strong> <span id="sender-address"></span></p>
+            <p><strong>To:</strong> <span id="recipient"></span></p>
+            <p><strong>Subject:</strong> <span id="subject"></span></p>
+            <p><strong>Text:</strong> <span id="text"></span></p>
+            <p><strong>Download URL:</strong> <a href="#" id="download-url" target="_blank">Download</a></p>
+            
+            <!-- Updated Copy Button -->
+            <button id="copy-email"></button>
+            <p id="copy-status" style="color: #cdf2cd; display: none;">Recipient address copied to clipboard!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

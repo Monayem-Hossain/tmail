@@ -1,0 +1,238 @@
+/* General reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container for the entire email interface */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Dropdown (select) and button styles */
+select, button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#fetch-emails {
+    margin-top: 10px;
+}
+
+/* Inbox list styling */
+#inbox {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #e9f0f9;
+}
+
+/* Email details section */
+.email-details {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.email-details p {
+    margin-bottom: 10px;
+}
+
+#download-url {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#download-url:hover {
+    text-decoration: underline;
+}
+
+#copy-email {
+    background-color: transparent;
+}
+
+#copy-email:hover {
+    background-color: transparent;
+}
+
+/* Success message for copy status */
+#copy-status {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Media queries for
+/* General reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container for the entire email interface */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Dropdown (select) and button styles */
+select, button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#fetch-emails {
+    margin-top: 10px;
+}
+
+/* Inbox list styling */
+#inbox {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #e9f0f9;
+}
+
+/* Email details section */
+.email-details {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.email-details p {
+    margin-bottom: 10px;
+}
+
+#download-url {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#download-url:hover {
+    text-decoration: underline;
+}
+
+#copy-email {
+    background-color: transparent;
+}
+
+#copy-email:hover {
+    background-color: transparent;
+}
+
+/* Success message for copy status */
+#copy-status {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Media queries for
